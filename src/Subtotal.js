@@ -21,7 +21,7 @@ import { useStateValue } from './StateProvider';
           <div>
             <p>
               Subtotal ({basket?.length} items) :{" "}
-              <strong>{calculateTotal(basket)}</strong>
+              <strong>{value}</strong>
             </p>
             <small className="subtotal__gift">
               <input type="checkbox" /> This order contains gift.
@@ -29,7 +29,7 @@ import { useStateValue } from './StateProvider';
           </div>
         )}
         decimalScale={2}
-        value={0}
+        value={calculateTotal(basket)}
         displayType={"text"}
         thousanSeparator={true}
         prefix={"$"}
