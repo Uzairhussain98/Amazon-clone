@@ -8,6 +8,8 @@ import Checkout from './Checkout';
 import Login from './Login';
 import { auth } from "./firebase";
 import { useStateValue } from './StateProvider';
+import Payment from './Payment';
+import Orders from './Orders';
 
 
 function App() {
@@ -53,6 +55,16 @@ auth.onAuthStateChanged(authUser =>{
            <Header />
           <Checkout />
         </Route>
+        <Route path="/payment">
+        <Header/>
+        <Payment/>
+        </Route>
+        <Route path="/orders">
+        <Header/>
+        <Orders/>
+        </Route>
+
+
         <Route path="/">
            <Header />
           <Home />
