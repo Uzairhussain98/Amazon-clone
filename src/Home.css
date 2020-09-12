@@ -6,7 +6,19 @@
     margin-right: auto;
 }
 
+.home__footer {
+  height: 300px;
+  width: 100%;
+  background-color:#0c2344;
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  padding-left:100px; 
+  padding-right:100px; 
+  padding-top: 30px ;
 
+
+}
 .home__image {
     width: 100%;
     height: 450px;
@@ -19,4 +31,31 @@
     z-index: 1;
     margin-left: 5px;
     margin-right: 5px;
+    display: flex;
+  }
+
+  .footer__columns > p {
+      color: grey;
+
+
+
+  }
+
+
+
+
+
+  .footer__image{
+      margin: 10px;
+      height: 60px;
+      width: 150px;
+      padding-left:30px ;
+      padding-top: 20px;
+    }
+
+
+.footer__columns{
+ margin-left: 160px;
+
+
   }

@@ -13,7 +13,7 @@ function Home() {
             <img className="home__image"
             src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg" alt=""/>
 
-       <Fade bottom delay={0} duration={2000}>
+       <Fade bottom delay={0} duration={1500}>
         <div className="home__row">
                 <Product
                 
@@ -45,7 +45,7 @@ function Home() {
             </Fade>
 
     
-     <Fade bottom delay={0} duration={2000}>
+     <Fade bottom delay={0} duration={1500}>
     <div  className="home__row">
         <Product
                 id = "04"
@@ -58,7 +58,7 @@ function Home() {
 
 </Fade>
 
-            <Fade bottom delay={0} duration={2000}>
+            <Fade bottom delay={0} duration={1500}>
          <div className="home__row">
          <Product
                 id = "05"
@@ -79,6 +79,47 @@ function Home() {
              </div>
 
              </Fade>
+
+             <div className="home__footer">
+
+             <div className="footer__columns">
+             <h4>Get To Know Us</h4>
+              <p>Careers</p>
+              <p>Blog</p>
+              <p>About Amazon</p>
+
+
+              </div>
+
+              <div className="footer__columns">
+              <h4>Amazon Payment Product</h4>
+              <p>Careers</p>
+              <p>Blog</p>
+              <p>About Amazon</p>
+
+
+              <img className="footer__image" src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt=""/>
+
+
+
+
+                </div>
+
+
+                <div className="footer__columns">
+                <h4>Let Us Help You</h4>
+              <p>Careers</p>
+              <p>Blog</p>
+              <p>About Amazon</p>
+
+
+                </div>
+
+                
+
+             </div>
+            
+
 
             </div>
       

@@ -38,7 +38,7 @@ import { useStateValue } from './StateProvider';
                         <p>🌟</p>
                     ))}
                 </div>
-                <button onClick={removeFromBasket}>Remove from Basket</button>
+                <button onClick={removeFromBasket }>Remove from Basket</button>
 
 
 
