@@ -1,10 +1,12 @@
 
-# Amazon Clone Using React
+# Amazon Clone Using React 🔥🔥🔥
 
+## Description
+
+Amazon UI Clone Made With React.js 🚀 And Google Firebase 🔥 With Login Functionality .
+
+## Images
 
 ![Amazon](project.png)
 
-### description
-
-A Amazon UI Clone Made With React.js 🚀 And Google Firebase 🔥 With Login Functionality .
-
+![Amazon2](project2.png)
