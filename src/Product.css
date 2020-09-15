@@ -11,6 +11,11 @@
     z-index: 1;
     background-color: white;
   }
+  .product:hover{
+    box-shadow: 0 0 15px;
+  }
+  
+
   .product__info {
     height: 100px;
     margin-bottom: 15px;
@@ -36,6 +41,14 @@
     border: 1px solid;
     border-color: #a88734 #9c7e31 #846a29;
   }
+
+.product > button:hover{
+  cursor: pointer;
+  box-shadow:  0 0 10px;
+
+}
+
+
   .product__rating {
     display: flex;
     color: #f0c14b;

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Product from './Product'
+
 import Fade from 'react-reveal/Fade';
 
 
@@ -79,6 +80,7 @@ function Home() {
              </div>
 
              </Fade>
+             <Fade bottom delay={0} duration={1500}>
 
              <div className="home__footer">
 
@@ -93,9 +95,9 @@ function Home() {
 
               <div className="footer__columns">
               <h4>Amazon Payment Product</h4>
-              <p>Careers</p>
-              <p>Blog</p>
-              <p>About Amazon</p>
+              <p>Sell on Amazon</p>
+              <p>Sell Your Apps on Amazon</p>
+              <p>Become an Affiliate</p>
 
 
               <img className="footer__image" src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt=""/>
@@ -108,9 +110,9 @@ function Home() {
 
                 <div className="footer__columns">
                 <h4>Let Us Help You</h4>
-              <p>Careers</p>
-              <p>Blog</p>
-              <p>About Amazon</p>
+              <p>Amazon and COVID-19</p>
+              <p>Your Orders</p>
+              <p>Help</p>
 
 
                 </div>
@@ -120,7 +122,7 @@ function Home() {
              </div>
             
 
-
+</Fade>
             </div>
       
     </div>

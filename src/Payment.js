@@ -26,6 +26,11 @@ function Payment() {
         event.preventDefault();
 
             // paymentIntent = payment confirmation
+            
+        
+       
+
+
 
             if (basket.length >0 ) {
                 
@@ -46,9 +51,9 @@ function Payment() {
                 alert("enter items")
             }
          
-        }
+            }
     
-
+        
     
 
     
@@ -126,6 +131,6 @@ function Payment() {
     </div>
 </div>
   )
-}
-
+                                           
+                                }
 export default Payment
