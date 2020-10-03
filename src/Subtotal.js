@@ -9,7 +9,7 @@ import { useHistory } from 'react-router-dom';
 
     const history = useHistory();
 
-    const[{basket}, dispatch] = useStateValue();
+    const[{basket}, ] = useStateValue();
 
     const calculateTotal = (basket) => {
         return basket.reduce((price, item) => item.price + price, 0)
